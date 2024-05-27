@@ -45,47 +45,6 @@ This is the frontend of the Task Manager application, built with React.
     npm start
     ```
 
-### Project Structure
-
-frontend/
-│
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── AuthForm.css
-│ │ ├── Login.js
-│ │ ├── Register.js
-│ │ ├── Tasks/
-│ │ │ ├── CreateTask.js
-│ │ │ ├── EditTask.js
-│ │ │ ├── TaskList.js
-│ │ │ └── ...
-│ │ ├── Courses/
-│ │ │ ├── CreateCourse.js
-│ │ │ ├── EditCourse.js
-│ │ │ ├── CourseList.js
-│ │ │ └── ...
-│ │ ├── Evaluations/
-│ │ │ ├── CreateEvaluation.js
-│ │ │ ├── EditEvaluation.js
-│ │ │ ├── EvaluationList.js
-│ │ │ └── ...
-│ │ ├── Schools/
-│ │ │ ├── CreateSchool.js
-│ │ │ ├── EditSchool.js
-│ │ │ ├── SchoolList.js
-│ │ │ └── ...
-│ │ ├── Dashboard.js
-│ │ ├── Home.js
-│ │ └── ...
-│ ├── App.js
-│ ├── index.js
-│ └── ...
-├── .env
-└── package.json
-
-
 ### Usage
 
 - Visit the home page to see an overview of the application.
